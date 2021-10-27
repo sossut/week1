@@ -1,0 +1,13 @@
+extends layout.pug
+block content
+    h1= 'Click on the cat'
+    article
+        header
+            h2= 'Name'
+        figure
+            img(src='./img/cat.jpg' class='big small trans' alt='kissakuva')
+        p= 'Age: 7'
+        p= 'Weight 5kg'
+block scripts
+    script(src='./js/main.js')
+       
